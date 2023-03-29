@@ -67,3 +67,16 @@ Traceback (most recent call last):
   File "D:\final-year-data-collection-hids\main.py", line 33, in insert_data_timer
     insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, erase_keys_percentage,
 TypeError: insert_data_into_table() missing 1 required positional argument: 'current_app_stddev_processes'
+ERROR:pynput.keyboard.Listener:Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\keyboard\_win32.py", line 287, in _process
+    self.on_press(key)
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "D:\final-year-data-collection-hids\main.py", line 71, in on_keyboard_event
+    insert_data_timer()
+  File "D:\final-year-data-collection-hids\main.py", line 33, in insert_data_timer
+    insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, erase_keys_percentage,
+TypeError: insert_data_into_table() missing 1 required positional argument: 'current_app_stddev_processes'
