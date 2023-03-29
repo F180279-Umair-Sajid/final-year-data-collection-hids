@@ -24,7 +24,7 @@ app_stats = AppStats()
 
 # Set up a timer to run the insert_data_into_table function every minute
 def insert_data_timer():
-    threading.Timer(5.0, insert_data_timer).start()
+    threading.Timer(60, insert_data_timer).start()
     current_time = time.time()
     timestamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(current_time))
     global keystroke_counter, erase_keys_counter, erase_keys_percentage, press_press_intervals, press_release_intervals, word_lengths, word_counter
@@ -77,6 +77,9 @@ if __name__ == '__main__':
     # Set up the keyboard listener
     listener = keyboard.Listener(on_press=on_keyboard_event)
     listener.start()
+
+    # Call the insert_data_timer() function to start the timer
+    insert_data_timer()
 
     # Keep the program running
     try:
