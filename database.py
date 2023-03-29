@@ -1,3 +1,6 @@
+import logging
+import psycopg2
+import statistics
 
 logging.basicConfig(filename='error.log', level=logging.ERROR)
 
@@ -28,14 +31,23 @@ def create_table_if_not_exists():
                     press_release_stddev_interval REAL,
                     word_counter INTEGER,
                     word_average_length REAL,
-                    word_stddev_length REAL
+                    word_stddev_length REAL,
+                    active_apps_average REAL,
+                    current_app TEXT,
+                    penultimate_app TEXT,
+                    changes_between_apps INTEGER,
+                    current_app_foreground_time INTEGER,
+                    current_app_average_processes REAL,
+                    current_app_stddev_processes REAL
                 );
             """)
             conn.commit()
 
 
 def insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, erase_keys_percentage,
-                           press_press_intervals, press_release_intervals, word_lengths):
+                           press_press_intervals, press_release_intervals, word_lengths, active_apps_average,
+                           current_app, penultimate_app, changes_between_apps, current_app_foreground_time,
+                           current_app_average_processes, current_app_stddev_processes):
     with psycopg2.connect(
             host=DB_HOST,
             database=DB_NAME,
@@ -69,10 +81,17 @@ def insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, era
                         press_release_stddev_interval,
                         word_counter,
                         word_average_length,
-                        word_stddev_length
+                        word_stddev_length,
+                        active_apps_average,
+                        current_app,
+                        penultimate_app,
+                        changes_between_apps,
+                        current_app_foreground_time,
+                        current_app_average_processes,
+                        current_app_stddev_processes
                     )
                     VALUES (
-                        %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+                        %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
                     );
                 """, (
                     timestamp,
@@ -85,7 +104,14 @@ def insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, era
                     press_release_stddev_interval,
                     word_counter,
                     word_average_length,
-                    word_stddev_length
+                    word_stddev_length,
+                    active_apps_average,
+                    current_app,
+                    penultimate_app,
+                    changes_between_apps,
+                    current_app_foreground_time,
+                    current_app_average_processes,
+                    current_app_stddev_processes,
                 ))
                 conn.commit()
                 print(f"Data inserted into table for timestamp: {timestamp}")
