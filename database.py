@@ -35,7 +35,6 @@ def create_table_if_not_exists():
                     active_apps_average REAL,
                     current_app TEXT,
                     penultimate_app TEXT,
-                    changes_between_apps INTEGER,
                     current_app_foreground_time INTEGER,
                     current_app_average_processes REAL,
                     current_app_stddev_processes REAL
@@ -48,6 +47,7 @@ def insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, era
                            press_press_intervals, press_release_intervals, word_lengths, active_apps_average,
                            current_app, penultimate_app, current_app_foreground_time,
                            current_app_average_processes, current_app_stddev_processes):
+    print("Inside insert_data_into_table() function...")
     with psycopg2.connect(
             host=DB_HOST,
             database=DB_NAME,
@@ -66,9 +66,12 @@ def insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, era
                 press_release_intervals) > 0 else 0
             press_release_stddev_interval = statistics.stdev(press_release_intervals) if len(
                 press_release_intervals) > 1 else 0
+            print("trying to Insert the data into the database")
 
             # Insert the data into the database
             try:
+                print("inside the try block")
+
                 cur.execute("""
                     INSERT INTO typing_stats (
                         timestamp,
@@ -85,13 +88,12 @@ def insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, era
                         active_apps_average,
                         current_app,
                         penultimate_app,
-                        changes_between_apps,
                         current_app_foreground_time,
                         current_app_average_processes,
                         current_app_stddev_processes
                     )
                     VALUES (
-                        %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+                        %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
                     );
                 """, (
                     timestamp,
@@ -112,9 +114,7 @@ def insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, era
                     current_app_average_processes,
                     current_app_stddev_processes
                 ))
-
+                print("after the insertion")
                 conn.commit()
-                print(f"Data inserted into table for timestamp: {timestamp}")
-                print(f"keystroke_counter: {keystroke_counter}")
             except Exception as e:
                 logging.error(f"Error occurred while inserting data into database: {e}")

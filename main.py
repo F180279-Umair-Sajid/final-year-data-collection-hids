@@ -24,11 +24,12 @@ app_stats = AppStats()
 
 # Set up a timer to run the insert_data_into_table function every minute
 def insert_data_timer():
-    threading.Timer(60, insert_data_timer).start()
+    threading.Timer(5, insert_data_timer).start()
     current_time = time.time()
     timestamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(current_time))
     global keystroke_counter, erase_keys_counter, erase_keys_percentage, press_press_intervals, press_release_intervals, word_lengths, word_counter
     active_apps_count, current_app, penultimate_app, current_app_foreground_time, current_app_average_processes, current_app_stddev_processes = app_stats.update()
+    print("Calling insert_data_into_table() function...")
     insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, erase_keys_percentage,
                            press_press_intervals, press_release_intervals, word_lengths, active_apps_count,
                            current_app, penultimate_app, current_app_foreground_time, current_app_average_processes,
@@ -65,7 +66,7 @@ def on_keyboard_event(key):
         press_release_intervals.append(current_time - last_press_time)
         last_press_time = 0
     # Check if it's time to insert data into the database
-    if current_time - last_timestamp > 60:
+    if current_time - last_timestamp > 5:
         last_timestamp = current_time
         insert_data_timer()
 
