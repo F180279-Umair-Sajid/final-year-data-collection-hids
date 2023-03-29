@@ -5,6 +5,7 @@ import time
 from pynput import keyboard
 
 from database import create_table_if_not_exists, insert_data_into_table
+from app_stats import AppStats
 
 logging.basicConfig(filename='error.log', level=logging.ERROR)
 
@@ -19,6 +20,9 @@ word_counter = 0
 last_press_time = 0
 last_timestamp = time.time()
 
+# Initialize AppStats
+app_stats = AppStats()
+
 
 # Set up a timer to run the insert_data_into_table function every minute
 def insert_data_timer():
@@ -26,9 +30,12 @@ def insert_data_timer():
     current_time = time.time()
     timestamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(current_time))
     global keystroke_counter, erase_keys_counter, erase_keys_percentage, press_press_intervals, press_release_intervals, word_lengths, word_counter
+    active_apps_count, current_app, penultimate_app, current_app_foreground_time, current_app_average_processes, current_app_stddev_processes = app_stats.update()
     print(f'Inserting data for timestamp: {timestamp}')
     insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, erase_keys_percentage,
-                           press_press_intervals, press_release_intervals, word_lengths)
+                           press_press_intervals, press_release_intervals, word_lengths, active_apps_count,
+                           current_app, penultimate_app, current_app_foreground_time, current_app_average_processes,
+                           current_app_stddev_processes)
     # Reset the counters and intervals
     keystroke_counter = 0
     erase_keys_counter = 0
