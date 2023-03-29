@@ -24,16 +24,15 @@ app_stats = AppStats()
 
 # Set up a timer to run the insert_data_into_table function every minute
 def insert_data_timer():
-    threading.Timer(60.0, insert_data_timer).start()
+    threading.Timer(5.0, insert_data_timer).start()
     current_time = time.time()
     timestamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(current_time))
     global keystroke_counter, erase_keys_counter, erase_keys_percentage, press_press_intervals, press_release_intervals, word_lengths, word_counter
     active_apps_count, current_app, penultimate_app, current_app_foreground_time, current_app_average_processes, current_app_stddev_processes = app_stats.update()
-    print(f'Inserting data for timestamp: {timestamp}')
     insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, erase_keys_percentage,
                            press_press_intervals, press_release_intervals, word_lengths, active_apps_count,
                            current_app, penultimate_app, current_app_foreground_time, current_app_average_processes,
-                           current_app_stddev_processes)
+                           current_app_stddev_processes)  # <-- added the missing argument here
     # Reset the counters and intervals
     keystroke_counter = 0
     erase_keys_counter = 0

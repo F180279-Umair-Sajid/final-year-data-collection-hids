@@ -11,6 +11,7 @@ class AppStats:
         self.penultimate_app = "-"
         self.current_app_foreground_time = 0
         self.current_app_processes = []
+        self.last_time = time.time()  # Add this line
 
     def update(self):
         # Get the active processes and their executable names
@@ -54,6 +55,7 @@ class AppStats:
                 self.penultimate_app = self.current_app
             self.current_app = current_app
             self.current_app_foreground_time = 0
+
             self.current_app_processes = []
         # Update the current app process list
         self.current_app_processes.append(len(psutil.Process(pid).children()))

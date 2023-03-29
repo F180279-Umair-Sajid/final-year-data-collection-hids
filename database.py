@@ -46,7 +46,7 @@ def create_table_if_not_exists():
 
 def insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, erase_keys_percentage,
                            press_press_intervals, press_release_intervals, word_lengths, active_apps_average,
-                           current_app, penultimate_app, changes_between_apps, current_app_foreground_time,
+                           current_app, penultimate_app, current_app_foreground_time,
                            current_app_average_processes, current_app_stddev_processes):
     with psycopg2.connect(
             host=DB_HOST,
@@ -108,18 +108,13 @@ def insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, era
                     active_apps_average,
                     current_app,
                     penultimate_app,
-                    changes_between_apps,
                     current_app_foreground_time,
                     current_app_average_processes,
-                    current_app_stddev_processes,
+                    current_app_stddev_processes
                 ))
+
                 conn.commit()
                 print(f"Data inserted into table for timestamp: {timestamp}")
                 print(f"keystroke_counter: {keystroke_counter}")
-                print(f"erase_keys_counter: {erase_keys_counter}")
-                print(f"erase_keys_percentage: {erase_keys_percentage}")
-                print(f"press_press_average_interval: {press_press_average_interval}")
-                print(f"press_press_stddev_interval: {press_press_stddev_interval}")
-                print(f"press_release_average_interval: {press_release_average_interval}")
             except Exception as e:
                 logging.error(f"Error occurred while inserting data into database: {e}")
