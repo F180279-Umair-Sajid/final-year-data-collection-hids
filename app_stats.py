@@ -2,6 +2,7 @@ import time
 import psutil
 import win32gui
 import statistics
+import ctypes
 
 
 class AppStats:
@@ -34,7 +35,10 @@ class AppStats:
 
         # Get the executable name of the current foreground window
         hwnd = win32gui.GetForegroundWindow()
-        pid = win32gui.GetWindowThreadProcessId(hwnd)[1]
+        GetWindowThreadProcessId = ctypes.windll.user32.GetWindowThreadProcessId
+        pid = ctypes.c_ulong()
+        GetWindowThreadProcessId(hwnd, ctypes.byref(pid))
+        pid = pid.value
         try:
             current_app = psutil.Process(pid).name()
         except psutil.NoSuchProcess:
@@ -51,7 +55,6 @@ class AppStats:
             self.current_app = current_app
             self.current_app_foreground_time = 0
             self.current_app_processes = []
-
         # Update the current app process list
         self.current_app_processes.append(len(psutil.Process(pid).children()))
 

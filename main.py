@@ -7,8 +7,6 @@ from pynput import keyboard
 from database import create_table_if_not_exists, insert_data_into_table
 from app_stats import AppStats
 
-logging.basicConfig(filename='error.log', level=logging.ERROR)
-
 # Initialize global variables
 keystroke_counter = 0
 erase_keys_counter = 0
