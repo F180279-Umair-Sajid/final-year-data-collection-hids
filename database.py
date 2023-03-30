@@ -10,14 +10,19 @@ DB_USER = "postgres"
 DB_PASS = "12345678"
 
 
+def connect_to_db():
+    return psycopg2.connect(
+        host=DB_HOST,
+        database=DB_NAME,
+        user=DB_USER,
+        password=DB_PASS
+    )
+
+
 def create_table_if_not_exists():
+    print("Creating table if not exists...")
     # Create a new table if it doesn't exist
-    with psycopg2.connect(
-            host=DB_HOST,
-            database=DB_NAME,
-            user=DB_USER,
-            password=DB_PASS
-    ) as conn:
+    with connect_to_db() as conn:
         with conn.cursor() as cur:
             cur.execute("""
                 CREATE TABLE IF NOT EXISTS typing_stats (
@@ -48,12 +53,7 @@ def insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, era
                            current_app, penultimate_app, current_app_foreground_time,
                            current_app_average_processes, current_app_stddev_processes):
     print("Inside insert_data_into_table() function...")
-    with psycopg2.connect(
-            host=DB_HOST,
-            database=DB_NAME,
-            user=DB_USER,
-            password=DB_PASS
-    ) as conn:
+    with connect_to_db() as conn:
         with conn.cursor() as cur:
             word_counter = len(word_lengths)
             word_average_length = statistics.mean(word_lengths) if word_counter > 0 else 0
