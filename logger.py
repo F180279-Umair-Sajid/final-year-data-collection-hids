@@ -64,19 +64,28 @@ def on_keyboard_event(key, event):
             press_release_intervals.append(current_timestamp - last_release_time)
         last_release_time = current_timestamp
 
-    # Debugging output
-    print(f"Event: {event}, Key: {key}")
-    print(f"Word Counter: {word_counter}")
-    print(f"Word Lengths: {word_lengths}")
-    print(f"Press-Press Intervals: {press_press_intervals}")
-    print(f"Press-Release Intervals: {press_release_intervals}")
-    print(f"Keystroke Counter: {keystroke_counter}")
-    print(f"Erase Keys Counter: {erase_keys_counter}\n")
-
 
 def on_press(key):
+    global keystroke_counter, erase_keys_counter, erase_keys_percentage, press_press_intervals, press_release_intervals, word_lengths, word_counter, last_press_time, last_timestamp
+
     on_keyboard_event(key, 'press')
 
 
 def on_release(key):
+    global keystroke_counter, erase_keys_counter, erase_keys_percentage, press_press_intervals, press_release_intervals, word_lengths, word_counter, last_press_time, last_timestamp
+
     on_keyboard_event(key, 'release')
+
+
+def get_logger_data():
+    return keystroke_counter, erase_keys_counter, press_press_intervals, press_release_intervals, word_lengths, word_counter
+
+
+def reset_counters():
+    global keystroke_counter, erase_keys_counter, press_press_intervals, press_release_intervals, word_lengths, word_counter
+    keystroke_counter = 0
+    erase_keys_counter = 0
+    press_press_intervals = []
+    press_release_intervals = []
+    word_lengths = []
+    word_counter = 0

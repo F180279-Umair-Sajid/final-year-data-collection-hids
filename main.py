@@ -5,31 +5,23 @@ from pynput import keyboard
 
 from database import create_table_if_not_exists, insert_data_into_table
 from app_stats import AppStats
-from logger import on_press as logger_on_press, \
-    on_release as logger_on_release  # Import the on_press and on_release functions from logger.py
-
-# Initialize global variables
-keystroke_counter = 0
-erase_keys_counter = 0
-erase_keys_percentage = 0
-press_press_intervals = []
-press_release_intervals = []
-word_lengths = []
-word_counter = 0
-last_press_time = 0
-last_timestamp = time.time()
+from logger import (
+    reset_counters,  # Add this line
+    on_press as logger_on_press,
+    on_release as logger_on_release, get_logger_data,
+)
 
 # Initialize AppStats
 app_stats = AppStats()
 
 
 def on_press(key):
-    global keystroke_counter, erase_keys_counter, erase_keys_percentage, press_press_intervals, press_release_intervals, word_lengths, word_counter, last_press_time, last_timestamp
+    global keystroke_counter, erase_keys_counter, press_press_intervals, press_release_intervals, word_lengths, word_counter, last_press_time
     logger_on_press(key)  # Call the on_press function from logger.py
 
 
 def on_release(key):
-    global keystroke_counter, erase_keys_counter, erase_keys_percentage, press_press_intervals, press_release_intervals, word_lengths, word_counter, last_press_time, last_timestamp
+    global keystroke_counter, erase_keys_counter, press_press_intervals, press_release_intervals, word_lengths, word_counter, last_press_time
     logger_on_release(key)
 
 
@@ -38,21 +30,22 @@ def insert_data_timer():
     threading.Timer(5, insert_data_timer).start()
     current_time = time.time()
     timestamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(current_time))
-    global keystroke_counter, erase_keys_counter, erase_keys_percentage, press_press_intervals, press_release_intervals, word_lengths, word_counter
     active_apps_count, current_app, penultimate_app, current_app_foreground_time, current_app_average_processes, current_app_stddev_processes = app_stats.update()
-    print("Calling insert_data_into_table() function...")
+
+    # Get data from logger.py
+    keystroke_counter, erase_keys_counter, press_press_intervals, press_release_intervals, word_lengths, word_counter = get_logger_data()
+
+    # Calculate erase_keys_percentage
+    erase_keys_percentage = (erase_keys_counter / keystroke_counter) * 100 if keystroke_counter > 0 else 0
+
+    print(f"keyboard{keystroke_counter}")
     insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, erase_keys_percentage,
                            press_press_intervals, press_release_intervals, word_lengths, active_apps_count,
                            current_app, penultimate_app, current_app_foreground_time, current_app_average_processes,
-                           current_app_stddev_processes)  # <-- added the missing argument here
-    # Reset the counters and intervals
-    keystroke_counter = 0
-    erase_keys_counter = 0
-    erase_keys_percentage = 0
-    press_press_intervals = []
-    press_release_intervals = []
-    word_lengths = []
-    word_counter = 0
+                           current_app_stddev_processes)
+
+    # Reset the counters in logger.py
+    reset_counters()
 
 
 if __name__ == '__main__':

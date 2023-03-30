@@ -821,3 +821,148 @@ ERROR:root:Error occurred while inserting data into database: tuple index out of
 ERROR:root:Error occurred while inserting data into database: tuple index out of range
 ERROR:root:Error occurred while inserting data into database: tuple index out of range
 ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: column "press_press_average_interval" of relation "typing_stats" does not exist
+LINE 7:                         press_press_average_interval,
+                                ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:pynput.keyboard.Listener:Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\keyboard\_win32.py", line 290, in _process
+    self.on_release(key)
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "D:\final-year-data-collection-hids\main.py", line 63, in on_release
+    if last_release_time != 0:
+NameError: name 'last_release_time' is not defined
+ERROR:pynput.keyboard.Listener:Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\keyboard\_win32.py", line 290, in _process
+    self.on_release(key)
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "D:\final-year-data-collection-hids\main.py", line 60, in on_release
+    if last_release_time != 0:
+NameError: name 'last_release_time' is not defined
+ERROR:pynput.keyboard.Listener:Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\keyboard\_win32.py", line 290, in _process
+    self.on_release(key)
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "D:\final-year-data-collection-hids\main.py", line 60, in on_release
+    if last_release_time != 0:
+NameError: name 'last_release_time' is not defined
+ERROR:pynput.keyboard.Listener:Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\keyboard\_win32.py", line 290, in _process
+    self.on_release(key)
+  File "D:\final-year-data-collection-hids\venv\lib\site-packages\pynput\_util\__init__.py", line 144, in inner
+    if f(*args) is False:
+  File "D:\final-year-data-collection-hids\main.py", line 59, in on_release
+    print("Starting the main script...")
+NameError: name 'last_release_time' is not defined
