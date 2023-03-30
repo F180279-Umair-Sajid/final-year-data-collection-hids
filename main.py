@@ -58,6 +58,7 @@ def insert_data_timer():
 
     # Collect network traffic
     bytes_sent, bytes_received = get_bytes_sent_received()
+    print(f'keystroke_counter{keystroke_counter}')
 
     # Insert data into database
     insert_data_into_table(timestamp, keystroke_counter, erase_keys_counter, erase_keys_percentage,
