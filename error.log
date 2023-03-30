@@ -966,3 +966,587 @@ Traceback (most recent call last):
   File "D:\final-year-data-collection-hids\main.py", line 59, in on_release
     print("Starting the main script...")
 NameError: name 'last_release_time' is not defined
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:                     INSERT INTO typing_stats (
+                                        ^
+
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: tuple index out of range
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
+ERROR:root:Error occurred while inserting data into database: relation "typing_stats" does not exist
+LINE 2:     INSERT INTO typing_stats (
+                        ^
+
